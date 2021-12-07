@@ -6,13 +6,11 @@ This code performs agglomerative hierarchical clustering on page abstractions of
 
 ### **How to run the code?**
 
-First, log into mirage, or whatever environment will be used to run this code.
-
-Then, run the follow commands to install the necessary dependencies:
+Run the follow commands to install the necessary dependencies:
     pip install opencv-python
     pip install HeapDict
 
-Finally, run the code:
+Then, run the code:
     python3 agglomerative_clustering.py
     
 The code takes about 8-13 minutes to sort 250 images on my machine.
